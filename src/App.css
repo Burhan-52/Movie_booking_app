@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.movie-list {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.movie-card {
+  padding: 20px;
+}
+
+.movie-image {
+  border-radius: 5px;
+}
+
+.movie-name {
+  margin: 5px 0px;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.movie-details {
+  font-weight: 600;
+  font-size: large;
+  margin: 10px 0px;
+}
+
+.movie-genre {
+  margin: 5px 0px;
+  font-size: large;
+}
+
+.btn {
+  margin: 5px 0px;
+  padding: 10px 10px;
+  background-color: rgb(181, 53, 53);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(168, 55, 55);
+}
+
+.summary-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+  flex-wrap: wrap;
+}
+
+.movie-image-name {
+  width: 100%;
+  max-width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.booking-form-container {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1001;
+  max-width: 400px;
+  width: 100%;
+}
+
+.booking-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.booking-title div {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.booking-title span {
+  cursor: pointer;
+  font-size: 20px;
+  color: #999;
+}
+
+.booking-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.booking-form input,
+.booking-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.about-container {
+  margin: 30px auto;
+  width: 50%;
+}
+
+.about-movie {
+  margin: 10px 0px;
+  font-size: large;
+}
